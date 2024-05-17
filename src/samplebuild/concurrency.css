@@ -1,0 +1,105 @@
+/* Container styling */
+.divmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+/* Main currency div styling */
+.maincurrencydiv {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 530px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    background: linear-gradient(120deg, #757472, #c7c2c2);
+}
+.autocomplete-suggestions {
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    max-height: 60%;
+    width: 210px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(192, 188, 188);
+    z-index: 1000;
+}
+  .autocomplete-suggestion {
+    padding: 10px;
+    cursor: pointer;
+  }
+  .autocomplete-suggestion:hover {
+    background-color: #e9e9e9;
+  } 
+.maincurrencydiv:hover {
+    transform: scale(1.05);
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group.d-flex {
+    display: flex;
+    gap: 15px;
+}
+
+/* Select dropdown styling */
+.form-select {
+    appearance: none;
+    border: none;
+    background: #e0e5ec;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.form-select:focus {
+    outline: none;
+    background: #d0dae3;
+}
+
+/* Input styling */
+.form-control {
+    border: none;
+    background: #e0e5ec;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    background: #d0dae3;
+}
+
+/* Button styling */
+.btn-success {
+    background: linear-gradient(135deg, #56ab2f, #a8e063);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background: linear-gradient(135deg, #56ab2f, #8ecf6b);
+}
+
+/* Result input styling */
+#resultvalue {
+    background: #f5f7fa;
+    border: none;
+    color: #333;
+    font-weight: bold;
+}
